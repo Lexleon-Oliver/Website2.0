@@ -3,6 +3,10 @@
   <section id="about" class="about">
     <app-about-me></app-about-me>
     <app-skills></app-skills>
-
+  </section>
+}
+@if (navbarService.getSelectedMenuItemId()==="resume") {
+  <section id="resume" class="resume">
+    <app-resume></app-resume>
   </section>
 }

@@ -5,6 +5,7 @@ import { NavbarService } from './services/navbar.service';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import * as Aos from 'aos';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { SkillsComponent } from './components/skills/skills.component';
     HeaderComponent,
     AboutMeComponent,
     SkillsComponent,
+    ResumeComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

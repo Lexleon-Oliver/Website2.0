@@ -9,6 +9,7 @@ export class NavbarService {
   private menuList:MenuItem[]=[
     {id:"home",text:"Início"},
     {id:"about",text:"Sobre mim"},
+    {id:"resume",text:"Currículo"},
   ]
 
   constructor() { }

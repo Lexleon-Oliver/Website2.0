@@ -1,0 +1,76 @@
+<div class="container">
+
+  <div class="section-title">
+    <h2>Currículo</h2>
+    <p>Confira meu Currículo</p>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <h3 class="resume-title">Sumário</h3>
+      <div class="resume-item pb-0">
+        <h4>Alex Oliveira</h4>
+        <p>
+          <em>Desenvolvedor apaixonado e dedicado, com um forte desejo de aprender e crescer na área de desenvolvimento de
+          software. Tenho experiência trabalhando em alguns projetos e estou ansioso para aplicar minhas habilidades e
+          contribuir para soluções de software inovadoras e impactantes.
+          </em>
+        </p>
+      </div>
+
+      <h3 class="resume-title">Educação</h3>
+      @for (educacaoItem of educacaoItems; track $index) {
+        <div class="resume-item">
+          <h4>{{ educacaoItem.titulo }}</h4>
+          <h5>{{ educacaoItem.periodo }}</h5>
+          <p><em>{{ educacaoItem.instituicao }}</em></p>
+        </div>
+      }
+    </div>
+    <div class="col-lg-6">
+      <h3 class="resume-title">Experiência Profissional</h3>
+      @for (experienciaItem of experienciaItems; track $index) {
+        <div class="resume-item">
+          <h4>{{ experienciaItem.cargo }}</h4>
+          <h5>{{ experienciaItem.periodo }}</h5>
+          <p><em>{{ experienciaItem.empresa }}</em></p>
+          <ul>
+            @for (responsabilidade of experienciaItem.responsabilidades; track $index) {
+              <li>{{ responsabilidade }}</li>
+            }
+          </ul>
+        </div>
+
+      }
+    </div>
+    <div class="col-lg-12">
+
+      <h3 class="resume-title">Cursos Complementares</h3>
+      <p>
+        <em>Cursos realizados visando me manter atualizado e aperfeiçoando minhas competências.
+        </em>
+      </p>
+      <div class="row courses-content">
+        @for (coluna of cursos; track $index) {
+          <div class="col-lg-6">
+            @for (curso of coluna; track $index) {
+              <div class="progress">
+                <span class="spaced">
+                  <i class="fa-solid fa-graduation-cap fa-2xl" style="color: #1c71d8;"></i>
+                  {{ curso.titulo }} oferecido pela {{ curso.instituicao }}.
+                </span>
+                <span class="spaced">
+                  <i class="fa-regular fa-clock fa-2xl" style="color: #3584e4;"></i>
+                  {{ curso.duracao }}
+                </span>
+              </div>
+            }
+          </div>
+
+        }
+
+      </div>
+    </div>
+  </div>
+
+</div>
