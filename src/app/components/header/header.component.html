@@ -1,0 +1,34 @@
+<header id="header" [ngClass]="{'header-top': navbarService.getSelectedMenuItemId() !== 'home'}">
+  <div class="container">
+
+    <h1>
+      <a href="" class="mr-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+      <a href="">{{user.brand}}</a>
+    </h1>
+    <h2>Meu espaço digital dedicado à <span>{{user.carrer}}</span>. </h2>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        @for (itemMenu of navbarService.getMenuList(); track $index) {
+          <li>
+            <a class="nav-link" [ngClass]="{active: itemMenu.id===navbarService.getSelectedMenuItemId()}"
+            (click)="selectMenu(itemMenu.id)">
+              {{itemMenu.text}}
+            </a>
+          </li>
+        }
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+
+    <div class="social-links">
+      @for (item of socialMedias; track $index) {
+        <a href={{item.link}} class={{item.id}}>
+          <i class={{item.class}}></i>
+        </a>
+
+      }
+    </div>
+
+  </div>
+</header>
