@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { NavbarService } from '../../services/navbar.service';
 import { SocialMediaItem } from '../../models/social-midia-item';
 import { CommonModule } from '@angular/common';
+import { User } from '../../models/user';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-header',
@@ -14,7 +16,8 @@ import { CommonModule } from '@angular/common';
 })
 export class HeaderComponent {
 
-  user:any ={};
+  menuMobileOpened:boolean = false;
+  user!:User;
   socialMedias: SocialMediaItem[]=[
     {id:"instagram", class:"bi bi-instagram", link:"https://www.instagram.com/lexleonoliver/"},
     {id:"linkedin", class:"bi bi-linkedin", link:"https://www.linkedin.com/in/lexoliveira/"},
@@ -22,13 +25,20 @@ export class HeaderComponent {
   ]
 
   constructor(
-    public navbarService: NavbarService
+    public navbarService: NavbarService,
+    private userService: UserService
   ){
-    this.user.brand = "LexDev";
-    this.user.carrer = "tecnologia da informação";
+    this.user= userService.getUser();
   }
 
   selectMenu(id: string) {
     this.navbarService.setSelectedMenuItemId(id);
+    if(this.menuMobileOpened){
+      this.toggleMenuMobile()
+    }
+  }
+
+  toggleMenuMobile() {
+    this.menuMobileOpened = !this.menuMobileOpened;
   }
 }
