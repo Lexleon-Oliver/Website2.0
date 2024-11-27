@@ -10,6 +10,7 @@ export class NavbarService {
     {id:"home",text:"Início"},
     {id:"about",text:"Sobre mim"},
     {id:"resume",text:"Currículo"},
+    {id:"services",text:"Serviços"},
   ]
 
   constructor() { }

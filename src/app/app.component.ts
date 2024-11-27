@@ -6,6 +6,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import * as Aos from 'aos';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ResumeComponent } from './components/resume/resume.component';
+import { ServiceComponent } from './components/service/service.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { ResumeComponent } from './components/resume/resume.component';
     AboutMeComponent,
     SkillsComponent,
     ResumeComponent,
+    ServiceComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
