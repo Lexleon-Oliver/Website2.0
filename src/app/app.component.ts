@@ -1,12 +1,10 @@
-import { AfterViewInit, Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { ActivatedRoute, NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { NavbarService } from './services/navbar.service';
-import { AboutMeComponent } from './components/about-me/about-me.component';
 import * as Aos from 'aos';
-import { SkillsComponent } from './components/skills/skills.component';
-import { ResumeComponent } from './components/resume/resume.component';
-import { ServiceComponent } from './components/service/service.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -14,19 +12,26 @@ import { ServiceComponent } from './components/service/service.component';
   imports: [
     RouterOutlet,
     HeaderComponent,
-    AboutMeComponent,
-    SkillsComponent,
-    ResumeComponent,
-    ServiceComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent implements AfterViewInit{
+export class AppComponent implements AfterViewInit, OnInit{
 
   constructor(
-    public navbarService: NavbarService
+    public navbarService: NavbarService,
+    private router: Router
   ){}
+
+  ngOnInit(): void {
+    this.router.events.pipe(
+      filter(event => event instanceof NavigationEnd)
+    ).subscribe(() => {
+      this.navbarService.setSelectedMenuItemId(this.router.url.replace(/^\/+/, ''));
+    });
+
+  }
 
   ngAfterViewInit() {
     Aos.init();

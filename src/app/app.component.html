@@ -1,17 +1,5 @@
 <app-header></app-header>
-@if (navbarService.getSelectedMenuItemId()==="about") {
-  <section id="about" class="about">
-    <app-about-me></app-about-me>
-    <app-skills></app-skills>
-  </section>
+@if (navbarService.getSelectedMenuItemId()!=="home") {
+  <router-outlet></router-outlet>
 }
-@if (navbarService.getSelectedMenuItemId()==="resume") {
-  <section id="resume" class="resume">
-    <app-resume></app-resume>
-  </section>
-}
-@if (navbarService.getSelectedMenuItemId()==="services") {
-  <section id="services" class="services">
-    <app-service></app-service>
-  </section>
-}
+<app-footer></app-footer>
