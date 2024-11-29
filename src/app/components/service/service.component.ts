@@ -30,14 +30,14 @@ export class ServiceComponent {
       title:'Instalação de programas sem complicação.',
       description:'Simplifique sua vida digital na instalação de programas! De softwares essenciais a aplicativos personalizados, instalação rápida e sem complicações. Elimine a preocupação de configurações complexas e compatibilidade, com a certeza que cada programa seja configurado corretamente e entregue pronto para uso. A eficiência de ter as ferramentas certas ao seu alcance sem o incômodo da instalação.',
       slogan:'Transforme seu dispositivo com os programas de que você precisa, sem stress!',
-      url:'https://softdownload.b-cdn.net/wp-content/uploads/2022/01/10_programas_win11.png'
+      url:'https://solution-sp.com.br/images//servicos/capa-instalacao-de-programas.jpg'
     },
     {
       id:4,
       title:'Limpeza interna para uma melhor refrigeração.',
       description:'Revitalize o saúde do seu computador com uma limpeza interna especializada! Livre-se do acúmulo de poeira e resíduos, garantindo um desempenho mais fresco e eficiente. Seu computador merece uma limpeza minuciosa, protegendo componentes essenciais e prolongando a vida útil do seu dispositivo. Tenha um computador mais eficiente e com desempenho máximo.',
       slogan:'Tenha um computador mais silencioso, mais frio e pronto para enfrentar qualquer desafio!',
-      url:'https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/04/30/limparpc-s18cmsal8vue.png'
+      url:'https://folhago.com.br/blogs/news-cotidiano/wp-content/webp-express/webp-images/uploads/2022/03/Design-sem-nome-2022-03-26T121419.742.jpg.webp'
     },
     {
       id:5,

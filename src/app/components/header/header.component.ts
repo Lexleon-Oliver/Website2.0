@@ -4,6 +4,7 @@ import { SocialMediaItem } from '../../models/social-midia-item';
 import { CommonModule } from '@angular/common';
 import { User } from '../../models/user';
 import { UserService } from '../../services/user.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -18,17 +19,15 @@ export class HeaderComponent {
 
   menuMobileOpened:boolean = false;
   user!:User;
-  socialMedias: SocialMediaItem[]=[
-    {id:"instagram", class:"bi bi-instagram", link:"https://www.instagram.com/lexleonoliver/"},
-    {id:"linkedin", class:"bi bi-linkedin", link:"https://www.linkedin.com/in/lexoliveira/"},
-    {id:"github", class:"bi bi-github", link:"https://github.com/Lexleon-Oliver"}
-  ]
+  socialMedias!: SocialMediaItem[];
 
   constructor(
     public navbarService: NavbarService,
-    private userService: UserService
+    private userService: UserService,
+    private router: Router
   ){
     this.user= userService.getUser();
+    this.socialMedias=this.user.socialMedias;
   }
 
   selectMenu(id: string) {
@@ -36,6 +35,7 @@ export class HeaderComponent {
     if(this.menuMobileOpened){
       this.toggleMenuMobile()
     }
+    this.router.navigate([id])
   }
 
   toggleMenuMobile() {

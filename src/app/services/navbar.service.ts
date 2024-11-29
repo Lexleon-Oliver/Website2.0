@@ -11,6 +11,7 @@ export class NavbarService {
     {id:"about",text:"Sobre mim"},
     {id:"resume",text:"Currículo"},
     {id:"services",text:"Serviços"},
+    {id:"contact",text:"Contato"},
   ]
 
   constructor() { }
