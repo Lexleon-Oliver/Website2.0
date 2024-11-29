@@ -1,0 +1,24 @@
+<div class="container">
+
+  <div class="section-title">
+    <h2>Serviços</h2>
+    <p>Meus Serviços</p>
+  </div>
+
+  <div class="row">
+    @for (item of serviceList; track $index) {
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="icon-box">
+          <div class="icon">
+            <img src="{{item.url}}" class="img-fluid" alt="">
+          </div>
+          <h4>
+            <a >{{item.title}}</a>
+          </h4>
+          <p>{{item.slogan}}</p>
+        </div>
+      </div>
+    }
+  </div>
+
+</div>
