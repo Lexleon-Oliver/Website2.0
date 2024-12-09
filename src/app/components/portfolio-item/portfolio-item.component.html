@@ -1,7 +1,10 @@
 <div class="container">
+
+  <div class="section-title">
+    <p>Detalhes do projeto</p>
+  </div>
   <div class="row">
     <div class="col-lg-8">
-      <h2 class="portfolio-title">Detalhes do projeto</h2>
       <swiper-container class="portfolio-details-slider" loop="true" navigation="true" pagination="true">
         @for (image of selectedProject?.images; track $index) {
             <swiper-slide class="swiper-slide">
