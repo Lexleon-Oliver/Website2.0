@@ -46,8 +46,33 @@ export class BlogService {
         date:"09/12/2024 20:00:00",
         url:"https://www.malwarebytes.com/wp-content/uploads/sites/2/2024/05/phishing.webp?w=1024",
         type:"Dica"
-      }
+      },
+      {
+        id:2,
+        title:"Feliz Natal e um próspero Ano Novo! 🎉",
+        slogan:"Neste fechamento de ano, quero expressar minha gratidão e esperar que o Natal traga felicidade em abundância, "+
+          "enquanto o Ano Novo seja repleto de novas oportunidades, aprendizado, segurança e contentamento, tanto no ambiente "+
+          "digital quanto na vida cotidiana.",
+        content: `
+        <p>Ao final deste ano, quero aproveitar para enviar meus votos de um Feliz Natal e um Ano Novo cheio de conquistas! Que
+          cada momento com seus familiares seja especial e que a tecnologia continue sendo uma grande parceira neste novo capítulo,
+          seja para lazer, trabalho ou aprendizado.</p>
+        <p>Lembre-se de que, assim como realizamos manutenção em nossos equipamentos para que não falhem, é importante realizar uma
+          "manutenção" no nosso bem-estar pessoal e nas nossas relações no dia-a-dia. Que o novo ano traga-nos mais paz, saúde e
+          oportunidades para crescer, aprender e admirar as maravilhas do mundo digital com máxima segurança e sapiência. E já que
+          falamos em segurança, mantenha sempre-se em estado de alerta durante a navegação: use senhas fortes, mantenha seus
+          dispositivos atualizados e, claro, fique atento aos perigos do phishing e das fraudes online. A tecnologia é fabulosa,
+          mas deve ser usada com cuidado para não nos causar problemas.</p>
+        <p>Estou à sua disposição para ajudá-lo a resolver quaisquer problemas, seja no computador, smartphone ou navegação segura
+          na internet.</p>
+      `,
+        subtitle:"Que 2025 seja um ano de muito sucesso, aprendizado e, claro, boas conexões (tanto digitais quanto pessoais)!",
+        date:"23/12/2024 17:41:12",
+        url:"https://vidadesuporte.com.br/wp-content/uploads/2013/12/2013-12-09-16.15.jpg",
+        type:"Mensagem"
+      },
     ]
+    this.news.reverse();
   }
 
   getNews():BlogItem[]{
