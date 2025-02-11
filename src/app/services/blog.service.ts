@@ -74,14 +74,14 @@ export class BlogService {
       {
         id:3,
         title:"Como Criar uma Senha Segura Facilmente para Proteger Suas Contas",
-        slogan:"Criar uma senha segura não precisa ser complicado, mas exige atenção e um pouco de criatividade. ",
+        slogan:"Criar uma senha segura não precisa ser complicado, mas exige atenção e um pouco de criatividade. "+
+        "Neste artigo, vou compartilhar dicas práticas e eficazes para criar uma senha que proteja suas contas de forma robusta. "+
+        "Vamos explorar técnicas simples e exemplos claros para você se proteger no mundo digital. Vamos lá!",
         content: `
         <p>No mundo digital em que vivemos, a segurança das nossas informações pessoais e profissionais é mais importante do que
         nunca. Uma das primeiras linhas de defesa contra invasões e ataques cibernéticos é a criação de uma senha segura.
         Como técnico, sei que muitas pessoas subestimam a importância de uma senha forte, mas a verdade é que uma senha fraca
         pode ser a porta de entrada para problemas graves, como roubo de dados e fraudes.</p>
-
-        <p>Neste artigo, vou compartilhar dicas práticas e eficazes para criar uma senha segura. Vamos lá!</p>
 
         <h2>Por que uma Senha Forte é Importante?</h2>
 
