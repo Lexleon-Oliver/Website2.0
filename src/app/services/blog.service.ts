@@ -71,6 +71,97 @@ export class BlogService {
         url:"https://vidadesuporte.com.br/wp-content/uploads/2013/12/2013-12-09-16.15.jpg",
         type:"Mensagem"
       },
+      {
+        id:3,
+        title:"Como Criar uma Senha Segura Facilmente para Proteger Suas Contas",
+        slogan:"Criar uma senha segura não precisa ser complicado, mas exige atenção e um pouco de criatividade. ",
+        content: `
+        <p>No mundo digital em que vivemos, a segurança das nossas informações pessoais e profissionais é mais importante do que
+        nunca. Uma das primeiras linhas de defesa contra invasões e ataques cibernéticos é a criação de uma senha segura.
+        Como técnico, sei que muitas pessoas subestimam a importância de uma senha forte, mas a verdade é que uma senha fraca
+        pode ser a porta de entrada para problemas graves, como roubo de dados e fraudes.</p>
+
+        <p>Neste artigo, vou compartilhar dicas práticas e eficazes para criar uma senha segura. Vamos lá!</p>
+
+        <h2>Por que uma Senha Forte é Importante?</h2>
+
+        <p>Antes de mergulharmos nas dicas, é crucial entender por que uma senha forte é tão importante.
+        Senhas fracas, como <code>"123456"</code> ou <code>"senha123"</code>, são facilmente adivinhadas por hackers que
+        usam ferramentas automatizadas para testar combinações comuns. Uma senha segura dificulta esse processo, protegendo
+        suas contas de e-mail, redes sociais, bancos e outros serviços online.</p>
+
+        <h2>Dicas para Criar uma Senha Segura</h2>
+
+        <h3>1. Use uma Combinação de Caracteres Diferentes</h3>
+        <p>Uma senha forte deve incluir letras maiúsculas, minúsculas, números e símbolos. Quanto mais variada for a
+        combinação, mais difícil será para alguém adivinhar ou quebrar a senha.</p>
+
+        <h3>2. Substitua Letras por Números e Símbolos Parecidos</h3>
+        <p>Uma técnica eficaz é substituir letras por números ou símbolos que se pareçam com elas. Por exemplo:</p>
+        <ul>
+            <li>A letra <strong>"a"</strong> pode ser substituída por <code>"@"</code>.</li>
+            <li>A letra <strong>"A"</strong> pode ser substituída por <code>"4"</code>.</li>
+            <li>A letra <strong>"E"</strong> pode ser substituída por <code>"3"</code>.</li>
+            <li>A letra <strong>"I"</strong> pode ser substituída por <code>"!"</code> ou <code>"1"</code>.</li>
+            <li>A letra <strong>"O"</strong> pode ser substituída por <code>"0"</code> (zero).</li>
+            <li>A letra <strong>"S"</strong> pode ser substituída por <code>"$"</code>.</li>
+        </ul>
+        <p><strong>Exemplo:</strong> A palavra <code>"Seguranca"</code> pode se tornar <code>"$3gur@nc@"</code>.</p>
+
+        <h3>3. Crie Senhas Longas</h3>
+        <p>Quanto mais longa for a senha, mais difícil será de quebrar. Procure usar pelo menos 12 caracteres. Frases
+        longas ou combinações de palavras aleatórias são uma boa opção.</p>
+
+        <h3>4. Evite Informações Pessoais</h3>
+        <p>Nunca use informações como nomes, datas de nascimento, números de telefone ou outras informações facilmente
+        associadas a você.</p>
+
+        <h3>5. Use Frases ou Combinações Aleatórias</h3>
+        <p>Em vez de uma única palavra, crie uma senha baseada em uma frase ou combinação de palavras que faça sentido apenas
+        para você. Por exemplo:</p>
+
+        <p><strong>Frase Original:</strong> <code>"CachorroGostaDeOsso2025!"</code></p>
+        <p><strong>Senha Forte:</strong> <code>"C@chorr0G0st@D3O$$02025!"</code></p>
+
+
+        <h3>6. Ative a Autenticação de Dois Fatores (2FA)</h3>
+        <p>Mesmo com uma senha forte, é recomendável ativar a autenticação de dois fatores sempre que possível. Isso adiciona
+        uma camada extra de segurança, exigindo um código adicional além da senha.</p>
+
+        <h2>Exemplos Práticos de Senhas Seguras</h2>
+
+        <p>Aqui estão alguns exemplos de como transformar palavras ou frases simples em senhas seguras:</p>
+        <ul>
+            <li><strong>Frase Original:</strong> <code>"MinhaSenhaSegura"</code><br>
+                <strong>Senha Forte:</strong> <code>"M!nh@$3nh@$3gur@"</code></li>
+            <li><strong>Frase Original:</strong> <code>"TecnicoEmInformatica"</code><br>
+                <strong>Senha Forte:</strong> <code>"T3cn!c0Em1nf0rm@t!c@"</code></li>
+            <li><strong>Frase Original:</strong> <code>"PrefeituraDaMinhaCidade"</code><br>
+                <strong>Senha Forte:</strong> <code>"Pr3f3!tur@D@M!nh@C!d@d3"</code></li>
+            <li><strong>Frase Original:</strong> <code>"CurriculoOnline2023"</code><br>
+                <strong>Senha Forte:</strong> <code>"Curr!cul0Onl!n3@2023"</code></li>
+        </ul>
+
+        <h2>Como Gerenciar Várias Senhas Fortes</h2>
+
+        <p>Criar senhas seguras é apenas o primeiro passo. Lembrar de todas elas pode ser um desafio. Aqui estão algumas
+        dicas para gerenciar suas senhas:</p>
+        <ul>
+            <li><strong>Use um Gerenciador de Senhas:</strong> Ferramentas como LastPass, Bitwarden ou 1Password ajudam a
+            armazenar e gerenciar suas senhas de forma segura.</li>
+            <li><strong>Nunca Repita Senhas:</strong> Use uma senha única para cada conta. Se uma senha for comprometida,
+            as outras contas permanecerão seguras.</li>
+            <li><strong>Atualize Suas Senhas Regularmente:</strong> Mesmo que uma senha seja forte, é uma boa prática
+            alterá-la periodicamente, especialmente para contas importantes.</li>
+        </ul>
+
+      `,
+        subtitle:"Ao seguir as dicas deste artigo, você estará protegendo suas contas e informações contra ameaças cibernéticas. "+
+        "Lembre-se: a segurança digital começa com você! ",
+        date:"11/02/2025 18:34:24",
+        url:"https://images.squarespace-cdn.com/content/55c378d4e4b031b2fa7cbe45/1502991328962-DXY5BWTLDZH597I8NI4F/senha-segura.png?format=1500w&content-type=image%2Fpng",
+        type:"Dica"
+      },
     ]
     this.news.reverse();
   }
