@@ -162,6 +162,48 @@ export class BlogService {
         url:"https://images.squarespace-cdn.com/content/55c378d4e4b031b2fa7cbe45/1502991328962-DXY5BWTLDZH597I8NI4F/senha-segura.png?format=1500w&content-type=image%2Fpng",
         type:"Dica"
       },
+      {
+        "id": 4,
+        "title": "Por que trocar o HD por um SSD deixa seu PC mais rápido?",
+        "slogan": "Se o seu computador está lento e demora para ligar ou abrir programas, pode ser hora de trocar o HD por um SSD. Essa simples mudança pode transformar completamente o desempenho do seu PC.",
+        "content": `
+          <p>Se o seu computador está muito lento, trocar o HD por um SSD pode resolver o problema. Mas por que isso faz tanta diferença? Vou explicar de um jeito fácil de entender.</p>
+
+          <h4>O que é HD e SSD?</h4>
+          <ul>
+            <li><strong>HD (Disco Rígido):</strong> É como um toca-discos antigo - tem um disco que gira e uma agulha que lê as informações. Isso o torna mais lento e pode quebrar com o tempo.</li>
+            <li><strong>SSD:</strong> Funciona como um pendrive gigante - armazena tudo em chips de memória, sem partes móveis. Por isso é muito mais rápido e durável.</li>
+          </ul>
+
+          <h4>Por que o SSD é melhor?</h4>
+          <ul>
+            <li><strong>É super rápido:</strong> Encontra arquivos num piscar de olhos, enquanto o HD precisa "procurar" girando o disco.</li>
+            <li><strong>Não trava:</strong> Sem partes mecânicas, dificilmente apresenta falhas ou quebra.</li>
+            <li><strong>Responde na hora:</strong> Quando você clica em algo, o computador reage imediatamente.</li>
+          </ul>
+
+          <h4>Vantagens do SSD</h4>
+          <ul>
+            <li><strong>O PC liga em segundos</strong> e abre programas sem demora</li>
+            <li><strong>Dura mais tempo</strong> e não estraga com pequenos impactos</li>
+            <li><strong>Não faz barulho</strong> e esquenta menos</li>
+            <li><strong>Dá nova vida</strong> a computadores antigos</li>
+          </ul>
+
+          <h4>Quanto custa?</h4>
+          <p>Os preços caíram muito! Um SSD básico (240GB) custa menos que muitos celulares e é suficiente para a maioria dos usuários. Se precisar de mais espaço, você pode usar o HD antigo como "gaveta" para arquivos.</p>
+
+          <h4>Como fazer a troca?</h4>
+          <p>A instalação é simples, basta entrar em contato e solicitar um orçamento. Faço a troca e transferência de tudo do HD antigo sem perder seus arquivos.</p>
+
+          <h4>Vale a pena?</h4>
+          <p>Com certeza! É o melhor custo-benefício para deixar seu computador rápido sem gastar fortunas em um novo.</p>
+        `,
+        "subtitle": "Trocar o HD por um SSD é a forma mais fácil de turbinar seu computador. Seu PC vai ligar rápido, programas vão abrir sem travar e você ainda ganha em durabilidade.",
+        "date": "24/03/2025 18:07:19",
+        "url": "https://img.freepik.com/fotos-gratis/partes-de-um-disco-rigido-pertencentes-ao-hardware-do-computador-explodiram-uma-a-uma-e-organizadas_463209-20.jpg",
+        "type": "Dica"
+      }
     ]
     this.news.reverse();
   }
