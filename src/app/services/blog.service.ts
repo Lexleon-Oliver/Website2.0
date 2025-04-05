@@ -203,6 +203,42 @@ export class BlogService {
         "date": "24/03/2025 18:07:19",
         "url": "https://img.freepik.com/fotos-gratis/partes-de-um-disco-rigido-pertencentes-ao-hardware-do-computador-explodiram-uma-a-uma-e-organizadas_463209-20.jpg",
         "type": "Dica"
+      },
+      {
+        "id": 5,
+        "title": "Windows 10 Chega ao Fim: Microsoft Sugere Reciclar PCs Antigos",
+        "slogan": "O suporte ao Windows 10 será encerrado em outubro de 2025, e a Microsoft já está orientando usuários sobre o que fazer com seus computadores antigos.",
+        "content": `
+          <p>A Microsoft está usando diferentes métodos para avisar os usuários do Windows 10 que o suporte ao sistema operacional está chegando ao fim. Uma das formas é por meio de e-mails com respostas a perguntas frequentes, como: <em>"O que posso fazer com meu computador antigo?"</em></p>
+
+          <h4>Microsoft Recomenda Vender ou Reciclar PCs Antigos</h4>
+          <p>Uma das respostas mais chamativas no e-mail é a sugestão da Microsoft sobre o destino dos computadores antigos: a empresa recomenda que eles sejam <strong>vendidos ou reciclados</strong> por organizações locais. A mensagem deixa claro que <strong>não haverá extensão do suporte ao Windows 10</strong>.</p>
+
+
+          <h4>O Que Acontece Quando o Suporte Acabar?</h4>
+          <ul>
+            <li>Seu PC com Windows 10 <strong>não vai parar de funcionar</strong></li>
+            <li>Mas <strong>não receberá mais atualizações de segurança</strong></li>
+            <li>Você ficará <strong>exposto a riscos de vírus e falhas</strong></li>
+          </ul>
+
+          <h4>Windows 11 é a Alternativa, mas Exige Hardware Novo</h4>
+          <p>A Microsoft promove o Windows 11 como opção segura, mas ele precisa de PCs mais modernos (com processadores de <strong>2017 ou mais recentes</strong>). A empresa não menciona no e-mail a opção de suporte estendido pago (US$ 30/ano), sugerindo indiretamente migrar para um PC novo.</p>
+
+          <h4>Alternativas Para Quem Não Quer Trocar de PC</h4>
+          <ul>
+            <li><strong>Continuar no Windows 10</strong> (mas assumindo os riscos de segurança)</li>
+            <li><strong>Instalar Linux</strong> (Ubuntu, Mint ou Fedora são boas opções para iniciantes)</li>
+          </ul>
+          <p><em>Fonte da notícia: <a href="https://engenhariae.com.br/noticia/descontinuacao-do-windows-10-microsoft-recomenda-ate-reciclar-pcs-antigos" target="_blank">Engenharia e</a></em></p>
+
+          <h4>Minha Opinião: A Microsoft Está Forçando a Atualização?</h4>
+          <p>Parece que a Microsoft está empurrando os usuários para o Windows 11. Muitos PCs funcionais podem acabar sendo descartados sem necessidade. E você, está pronto para se despedir do Windows 10?</p>
+        `,
+        "subtitle": "Com fim do suporte em outubro/2025, Microsoft sugere reciclagem de PCs antigos e migração para Windows 11, mas existem alternativas para quem não quer trocar de computador.",
+        "date": "05/04/2025 11:25:17",
+        "url": "https://cdn.pixabay.com/photo/2020/09/26/11/36/laptop-5603790_1280.jpg",
+        "type": "Notícia"
       }
     ]
     this.news.reverse();
