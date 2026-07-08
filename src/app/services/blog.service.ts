@@ -367,7 +367,122 @@ export class BlogService {
         "date": "02/06/2025 18:15:42",
         "url": "https://cdn.pixabay.com/photo/2016/11/29/08/41/apple-1868496_1280.jpg",
         "type": "Artigo"
+      },
+      {
+        "id": 7,
+        "title": "Wi-Fi Ruim ou Internet Caída? Como Posicionar o Roteador e Parar de Passar Raiva",
+        "slogan": "Descubra o que realmente afeta o seu sinal. Analisamos os mitos das antenas, a física das barreiras e as configurações para ajudar você a ter a melhor conexão no seu dia a dia.",
+        "content": `
+          <p>Na hora de navegar pela internet, muita gente passa pelo mesmo sufoco: o vídeo trava, a reunião cai e a paciência acaba. O que a maioria não sabe é que o culpado quase nunca é o plano contratado, mas sim a forma como o sinal está se espalhando pela casa.</p>
+
+          <p>Neste artigo, vamos explicar de forma simples as principais diferenças entre "sinal de Wi-Fi" e "conexão de internet", além de mostrar truques práticos para você ajustar seu roteador e extrair o máximo de desempenho.</p>
+
+          <h4>🚨 O Grande Mal-Entendido: Wi-Fi vs. Internet</h4>
+          <p>O primeiro passo para resolver seus problemas de conexão é entender que ter o sinal do Wi-Fi "cheio" no celular não significa necessariamente que você tem internet. O Wi-Fi funciona como um cabo invisível entre o seu dispositivo e o roteador. Se o roteador estiver ligado, o sinal estará forte, mas se o cabo físico da operadora na rua se romper, você continuará sem navegar.</p>
+
+          <p>Aprender a diferenciar isso ajuda a poupar tempo na hora de identificar se o problema está na sua casa ou se é hora de ligar cobrando o suporte técnico da operadora.</p>
+
+          <h4>🏠 Onde o Roteador deve Ficar (A Física do Sinal)</h4>
+          <p>As ondas de rádio do Wi-Fi se propagam para baixo e para os lados, de forma muito parecida com a luz de uma lâmpada acesa no teto. Por isso, a barreira física é o maior inimigo da sua velocidade digital. Ele se destaca em várias situações do dia a dia:</p>
+
+          <ul>
+            <li><strong>Evite esconder o aparelho:</strong> Colocar o roteador dentro do armário da TV, guardado atrás do sofá ou direto no chão bloqueia as ondas logo na saída.</li>
+            <li><strong>Busque a centralidade:</strong> O roteador deve ficar em um ponto central da casa para que o sinal viaje distâncias parecidas até os cômodos.</li>
+            <li><strong>A altura ideal:</strong> Deixe o aparelho em uma posição alta (em cima de um móvel ou prateleira) para evitar que móveis baixos absorvam o sinal.</li>
+          </ul>
+
+          <div class="alert alert-tip">
+            💡 <strong>Dica:</strong> Alguns materiais são verdadeiros bloqueadores de sinal. Paredes grossas de concreto e tijolo diminuem drasticamente o alcance. Espelhos refletem as ondas de volta, aquários cheios de água absorvem a energia do sinal, e o forno de micro-ondas ligado gera uma enorme interferência na frequência de 2.4 GHz.
+          </div>
+
+          <h4>📡 Mito ou Verdade: Quanto mais antenas, melhor o roteador?</h4>
+          <p>Ao entrar em uma loja, é comum ver aparelhos cheios de antenas que parecem naves espaciais. Mas o mundo das conexões exige que olhemos além do marketing:</p>
+
+          <ul>
+            <li><strong>A potência máxima é limitada por lei:</strong> No Brasil, a Anatel limita a potência de transmissão de sinal de qualquer aparelho doméstico. Portanto, encher o roteador de antenas baratas não faz ele atravessar magicamente três paredes de concreto.</li>
+            <li><strong>Para que servem as antenas afinal?</strong> Elas ajudam o roteador a conversar com múltiplos aparelhos ao mesmo tempo sem engasgar e se dividem entre as frequências de 2.4 GHz e 5 GHz.</li>
+          </ul>
+
+          <div class="alert alert-info">
+            📊 <strong>Curiosidade:</strong> A maioria das antenas é "omnidirecional", emitindo sinal em forma de rosca ao redor delas. Para melhor desempenho, mantenha as antenas do seu roteador apontadas para cima (na vertical). Deixá-las deitadas envia o sinal para o teto e para o chão, e não para as laterais onde seus aparelhos estão.
+          </div>
+
+          <h4>🌫️ "Sombra" de Sinal e a Guerra dos Canais</h4>
+          <p>O Wi-Fi funciona através de "canais" de transmissão, como se fossem estações de rádio. Se você mora em um prédio ou em uma rua muito movimentada, o roteador do seu vizinho pode estar transmitindo exatamente no mesmo canal que o seu. Isso causa o entupimento da frequência, gerando as famosas "zonas de sombra" — aqueles pontos específicos da casa onde o sinal some ou fica instável.</p>
+
+          <p>Os aparelhos modernos são inteligentes e costumam procurar um canal livre de forma automática sempre que são reiniciados. Desligar o roteador por 30 segundos da tomada e ligá-lo novamente força o sistema a escanear a vizinhança e escolher a frequência menos congestionada.</p>
+
+          <h4>⚖️ Comparativo Direto: As Frequências do seu Wi-Fi</h4>
+            <table class="container-fluid">
+              <thead>
+                <tr>
+                  <th>Fator</th>
+                  <th>Rede 2.4 GHz</th>
+                  <th>Rede 5 GHz</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alcance (Distância)</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                  <td>⭐⭐☆☆☆</td>
+                </tr>
+                <tr>
+                  <td>Velocidade Máxima</td>
+                  <td>⭐⭐☆☆☆</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Resistência a Paredes</td>
+                  <td>⭐⭐⭐⭐☆</td>
+                  <td>⭐⭐☆☆☆</td>
+                </tr>
+                <tr>
+                  <td>Interferência de Vizinhos</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                  <td>⭐☆☆☆☆</td>
+                </tr>
+              </tbody>
+            </table>
+
+          <div class="alert alert-summary">
+            🎯 <strong>Resumo:</strong> Se você está longe do roteador ou com muitas paredes no caminho, use a rede 2.4 GHz. Se você está no mesmo cômodo jogando ou assistindo streaming em alta definição, mude para a rede 5 GHz.
+          </div>
+
+          <h4>🔮 Casas Grandes e Altas: O Que Esperar?</h4>
+          <p>Para quem mora em casas compridas ou sobrados de dois andares, apenas um roteador central pode não ser suficiente. Antigamente, a solução mais comum era comprar repetidores de tomada básicos.</p>
+
+          <p>No entanto, o repetidor comum corta a velocidade da sua internet pela metade e cria uma segunda rede com outro nome, obrigando o seu celular a ficar mudando de conexão o tempo todo conforme você caminha pela casa.</p>
+
+          <p>Uma solução interessante e moderna para muitos usuários é adotar os sistemas de <strong>Rede Mesh</strong>:</p>
+
+          <ul>
+            <li>Dois ou mais módulos idênticos espalhados pela casa que trabalham juntos.</li>
+            <li>Eles criam uma única rede unificada com o mesmo nome e senha em todo o ambiente.</li>
+            <li>O sistema passa seu celular de um ponto para o outro de forma invisível e sem nenhuma queda.</li>
+          </ul>
+
+          <h4>✅ Conclusão</h4>
+          <p>Entender como o Wi-Fi se comporta resolve a imensa maioria dos problemas de internet lenta sem que você precise gastar dinheiro mudando de plano de internet.</p>
+
+          <p>Antes de decidir o que fazer, repense a sua estrutura real:</p>
+
+          <ul>
+            <li>O aparelho está muito escondido ou baixo?</li>
+            <li>O dispositivo está conectado na frequência correta para aquela distância?</li>
+            <li>Há muitos vizinhos congestionando o mesmo canal?</li>
+            <li>Já experimentou tirar da tomada por 30 segundos para resetar os canais?</li>
+          </ul>
+
+          <p>Fazer esse check-up simples vai ajudar você a navegar com muito mais estabilidade — e evitar dores de cabeça digitais desnecessárias.</p>
+        `,
+        "subtitle": "E você? Como está posicionado o roteador na sua casa? Já usa a frequência de 5 GHz ou uma rede Mesh?",
+        "date": "08/07/2026 19:35:00",
+        "url": "https://cdn.pixabay.com/photo/2016/11/22/21/42/adult-1850703_1280.jpg",
+        "type": "Artigo"
       }
+
+      
 
     ]
     this.news.reverse();
