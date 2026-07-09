@@ -383,7 +383,7 @@ export class BlogService {
           <p>Aprender a diferenciar isso ajuda a poupar tempo na hora de identificar se o problema está na sua casa ou se é hora de ligar cobrando o suporte técnico da operadora.</p>
 
           <h4>🏠 Onde o Roteador deve Ficar (A Física do Sinal)</h4>
-          <p>As ondas de rádio do Wi-Fi se propagam para baixo e para os lados, de forma muito parecida com a luz de uma lâmpada acesa no teto. Por isso, a barreira física é o maior inimigo da sua velocidade digital. Ele se destaca em várias situações do dia a dia:</p>
+          <p>As ondas de rádio do Wi-Fi se propagam em todas as direções ao redor da antena, de forma muito parecida com a luz de uma lâmpada acesa. Por isso, a barreira física é o maior inimigo da sua velocidade digital.</p>
 
           <ul>
             <li><strong>Evite esconder o aparelho:</strong> Colocar o roteador dentro do armário da TV, guardado atrás do sofá ou direto no chão bloqueia as ondas logo na saída.</li>
@@ -404,7 +404,7 @@ export class BlogService {
           </ul>
 
           <div class="alert alert-info">
-            📊 <strong>Curiosidade:</strong> A maioria das antenas é "omnidirecional", emitindo sinal em forma de rosca ao redor delas. Para melhor desempenho, mantenha as antenas do seu roteador apontadas para cima (na vertical). Deixá-las deitadas envia o sinal para o teto e para o chão, e não para as laterais onde seus aparelhos estão.
+            📊 <strong>Curiosidade:</strong> A maioria das antenas é omnidirecional e distribui o sinal ao redor de seu eixo. Em residências de um único andar, manter as antenas na vertical costuma proporcionar melhor cobertura horizontal.
           </div>
 
           <h4>🌫️ "Sombra" de Sinal e a Guerra dos Canais</h4>
@@ -482,7 +482,7 @@ export class BlogService {
         "type": "Artigo"
       }
 
-      
+
 
     ]
     this.news.reverse();
