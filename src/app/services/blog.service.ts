@@ -478,7 +478,7 @@ export class BlogService {
         `,
         "subtitle": "E você? Como está posicionado o roteador na sua casa? Já usa a frequência de 5 GHz ou uma rede Mesh?",
         "date": "08/07/2026 19:35:00",
-        "url": "https://cdn.pixabay.com/photo/2016/11/22/21/42/adult-1850703_1280.jpg",
+        "url": "https://unsplash.com/pt-br/fotografias/vista-de-perto-do-homem-conectando-o-cabo-ao-roteador-sem-fio-conceito-de-internet-sem-fio-zv3KZMdXtBA",
         "type": "Artigo"
       }
 
