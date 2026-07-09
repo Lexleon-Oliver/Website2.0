@@ -407,7 +407,7 @@ export class BlogService {
             📊 <strong>Curiosidade:</strong> A maioria das antenas é omnidirecional e distribui o sinal ao redor de seu eixo. Em residências de um único andar, manter as antenas na vertical costuma proporcionar melhor cobertura horizontal.
           </div>
 
-          <h4>🌫️ "Sombra" de Sinal e a Guerra dos Canais</h4>
+          <h4>👻 "Sombra" de Sinal e a Guerra dos Canais</h4>
           <p>O Wi-Fi funciona através de "canais" de transmissão, como se fossem estações de rádio. Se você mora em um prédio ou em uma rua muito movimentada, o roteador do seu vizinho pode estar transmitindo exatamente no mesmo canal que o seu. Isso causa o entupimento da frequência, gerando as famosas "zonas de sombra" — aqueles pontos específicos da casa onde o sinal some ou fica instável.</p>
 
           <p>Os aparelhos modernos são inteligentes e costumam procurar um canal livre de forma automática sempre que são reiniciados. Desligar o roteador por 30 segundos da tomada e ligá-lo novamente força o sistema a escanear a vizinhança e escolher a frequência menos congestionada.</p>
@@ -477,8 +477,8 @@ export class BlogService {
           <p>Fazer esse check-up simples vai ajudar você a navegar com muito mais estabilidade — e evitar dores de cabeça digitais desnecessárias.</p>
         `,
         "subtitle": "E você? Como está posicionado o roteador na sua casa? Já usa a frequência de 5 GHz ou uma rede Mesh?",
-        "date": "08/07/2026 19:35:00",
-        "url": "https://pixabay.com/pt/images/download/usa-reiseblogger-modem-5436146_1920.jpg",
+        "date": "09/07/2026 18:17:00",
+        "url": "https://images.openai.com/static-rsc-4/PL5Z3yIY7ZdV3AlzViJKHx2tYvVII_0m_sYWwJ6a8F2UFzAmje8-day_kAjZkW4CfOUtRJAZ4h40Qy3DaoiLaAo5A9RkO-riQvtrvUrG8WZyFwfHSznicF5FnmyAunIlZufkOoquumQ8dcp7tQ8h5W4VLx6GeZ5gnitjBJOn4z8?purpose=inline",
         "type": "Artigo"
       }
 
