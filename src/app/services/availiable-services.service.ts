@@ -28,7 +28,7 @@ export class AvailiableServicesService {
         title:'Instalação de programas sem complicação.',
         description:'Simplifique sua vida digital na instalação de programas! De softwares essenciais a aplicativos personalizados, instalação rápida e sem complicações. Elimine a preocupação de configurações complexas e compatibilidade, com a certeza que cada programa seja configurado corretamente e entregue pronto para uso. A eficiência de ter as ferramentas certas ao seu alcance sem o incômodo da instalação.',
         slogan:'Transforme seu dispositivo com os programas de que você precisa, sem stress!',
-        url:'https://solution-sp.com.br/images//servicos/capa-instalacao-de-programas.jpg'
+        url:'https://images.openai.com/static-rsc-4/qpkaGTs1JNjE3klMNBSMw-_-R6jGiUoLIm-0AcBnx0maPFPdMdbVdKc2G1jGuUQxK0MiCP1gzlFuCzFRYwOADIYY9SI5LPiPu8quNAfF-OrG9oOeyKqnNV-vq4Uh47K4d8P81FdtlmGT9PONiqbZ791TE5Ci_gzGdqa0QUE6uJQ?purpose=inline'
       },
       {
         id:4,
