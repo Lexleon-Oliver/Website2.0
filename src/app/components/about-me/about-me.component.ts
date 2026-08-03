@@ -21,7 +21,7 @@ export class AboutMeComponent {
   rightInfos = [
     { label: 'Idade', icon: 'bi-chevron-right', strong: this.calcularIdade() },
     { label: 'Grau', icon: 'bi-chevron-right', strong: 'Graduação' },
-    { label: 'E-mail', icon: 'bi-chevron-right', strong: 'lexleonmg@gmail.com' },
+    { label: 'E-mail', icon: 'bi-chevron-right', strong: 'contato@lexdev.net.br' },
     { label: 'Freelance', icon: 'bi-chevron-right', strong: 'Disponível' },
   ];
 

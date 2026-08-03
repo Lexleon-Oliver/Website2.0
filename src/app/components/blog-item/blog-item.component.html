@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="section-title">
+    <h2>{{selectedBlog.type}}</h2>
+    <p>{{selectedBlog.title}}</p>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>{{selectedBlog.slogan}}</h3>
+      <div class="blog-details">
+        <div class="slide">
+          <img [src]="selectedBlog.url" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 blog-info">
+      <div [innerHTML]="selectedBlog.content"></div>
+      <p class="tab">{{selectedBlog.subtitle}}</p>
+    </div>
+  </div>
+  <div class="blog-footer">
+    <p class="date-time">
+      Publicado em: {{ selectedBlog.date}}
+    </p>
+  </div>
+</div>
+
+

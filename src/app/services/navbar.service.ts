@@ -8,6 +8,7 @@ export class NavbarService {
   private selectedMenuItemId: string = "home";
   private menuList:MenuItem[]=[
     {id:"home",text:"Início"},
+    {id:"blog",text:"Blog"},
     {id:"about",text:"Sobre mim"},
     {id:"resume",text:"Currículo"},
     {id:"services",text:"Serviços"},

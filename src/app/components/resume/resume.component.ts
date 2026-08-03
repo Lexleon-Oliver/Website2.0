@@ -24,6 +24,17 @@ export class ResumeComponent {
 
   experienciaItems = [
     {
+      cargo: 'Técnico em Informática',
+      periodo: 'Abril 2024 – Até o momento',
+      empresa: 'Prefeitura Municipal de Carandaí',
+      responsabilidades: [
+        'Instalação, preparação, leitura e treinamento para uso de equipamentos e programas na área de informática.',
+        'Manutenção e atualização de sistemas.',
+        'Criação de backup.',
+        'Atendimentos e suporte a usuários.'
+      ]
+    },
+    {
       cargo: 'Desenvolvedor Fullstack Júnior',
       periodo: 'Abril 2022 - Junho 2023',
       empresa: 'Adapter Soluções Digitais LTDA',

@@ -6,6 +6,9 @@ import { ServicesPageComponent } from './pages/services-page/services-page.compo
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { PortfolioPageComponent } from './pages/portfolio-page/portfolio-page.component';
 import { PortfolioItemPageComponent } from './pages/portfolio-item-page/portfolio-item-page.component';
+import { ServicesItemPageComponent } from './pages/services-item-page/services-item-page.component';
+import { BlogPageComponent } from './pages/blog-page/blog-page.component';
+import { BlogItemPageComponent } from './pages/blog-item-page/blog-item-page.component';
 
 export const routes: Routes = [
   {
@@ -40,7 +43,19 @@ export const routes: Routes = [
   {
     path: 'portfolio/:id',
     component: PortfolioItemPageComponent
-  }
+  },
+  {
+    path: 'services/:id',
+    component: ServicesItemPageComponent
+  },
+  {
+    path: 'blog',
+    component: BlogPageComponent
+  },
+  {
+    path: 'blog/:id',
+    component: BlogItemPageComponent
+  },
 
 
 ];

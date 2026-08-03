@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="section-title">
+    <p>Detalhes do serviço</p>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="service-title">{{selectedService.title}}</h2>
+      <div class="service-details">
+            <div class="slide">
+              <img [src]="selectedService.url" alt="">
+            </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 service-info">
+      <h3>{{selectedService.slogan}}</h3>
+      <p>
+        {{selectedService.description}}
+      </p>
+    </div>
+  </div>
+</div>
+

@@ -8,7 +8,7 @@
   <div class="row">
     @for (item of serviceList; track $index) {
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
+        <div class="icon-box" (click)="detailService(item)">
           <div class="icon">
             <img src="{{item.url}}" class="img-fluid" alt="">
           </div>

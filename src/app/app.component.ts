@@ -1,5 +1,5 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router, RouterOutlet } from '@angular/router';
+import { AfterViewInit, Component, OnInit, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { NavbarService } from './services/navbar.service';
 import * as Aos from 'aos';
